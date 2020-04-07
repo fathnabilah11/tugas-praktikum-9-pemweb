@@ -1,0 +1,255 @@
+body{
+	background: #eee;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+	border:0;
+	background: #dedede;
+	height: 1px;
+}
+
+header .judul{
+	font-size: 17pt;
+	text-align: center;
+}
+
+header .deskripsi{
+	font-size: 11pt;
+	text-align: center;
+}
+
+.wrap{
+	width: 950px;
+	margin: 25px auto;
+	text-align: center;
+}
+
+nav.menu ul {
+	overflow: hidden;
+	color: #fff;
+	list-style: none;
+	float: center;
+	padding: 0;
+	width: auto;
+	margin: 0 0 0;
+	background: #1abc9c;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+}
+
+nav.menu ul li {
+	margin: 0;
+	float: center;
+}
+
+nav.menu ul a {
+	padding: 25px;
+	display: block;
+	font-weight: 600;
+	font-size: 16px;
+	color: #fff;
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+
+nav.menu ul a:hover {
+	text-decoration: underline;
+	background: #16a085;
+}
+
+.sidebar{
+	float: right;
+	width: 275px;
+}
+
+.sidebar .widget{
+	padding: 25px;
+	margin: 0 0 25px;
+	background: #fff;
+	border-bottom: 2px solid #fff;
+	transition: all 0.5s ease;
+}
+
+.sidebar .widget:hover{
+	border-bottom: 2px solid #3498db;
+}
+
+.sidebar .widget h2{
+	padding: 0;
+	margin: 0 0 15px;
+	color: #3498db;
+	font-size: 18px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.sidebar .widget p{
+	font-size: 14px;
+}
+
+.sidebar .widget p{
+	font-size: 14px;
+}
+
+.sidebar .widget p: last-child{
+	margin: 0;
+}
+
+.blog{
+	float: center;
+}
+
+.conteudo{
+	width: 650px;
+	padding: 25px;
+	margin: 35px auto;
+	background: #fff;
+	border: 1px solid #dedede;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+
+}
+
+.conteudo img{
+	min-width: 650px;
+	margin: 0 0 25px -25px
+	max-width: 650px;
+	
+}
+
+.conteudo h1{
+	padding: 0;
+	margin: 0 0 15px;
+	font-weight: normal;
+	color: #666;
+	font-family: georgia;
+}
+
+.conteudo p :last-child {
+	margin: 0;
+}
+
+.conteudo .continue-lendo {
+	color:#000;
+	transition: all 0.5s ease;
+	text-decoration: none;
+	font-weight: 700;
+
+}
+
+.post-info{
+	float: right;
+	font-size: 12px;
+	margin: -10px 0 15px;
+	text-transform: uppercase;
+	height: auto;
+}
+
+.jadwal{
+position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+}
+th{
+	color: #FFFFFF;
+	background-color: #1abc9c; 
+	border-width: 1px; 
+	font-size:14px;  
+	border-width: 1px;
+	border-style: solid;
+	border-color: #FFFFFF;
+}
+td{
+	font-size:16px; 
+	font-family: Century Gothic;
+	color: #000;
+	background-color: #E6E6FA; 
+	border-width: 1px;
+	height: 50px;
+	border-style: solid;
+	border-color: #FFFFFF;
+}
+
+h2{
+	color:#50626C;
+	text-align: center;
+	font-family: arial;
+	text-transform: uppercase;
+	border: 3px solid #f1f1f1;
+	padding: 5px;
+	width: 490px;
+	margin: auto;
+	margin-bottom: 10px;
+    margin-top: 20px;
+}
+form {
+    border: 3px solid #f1f1f1;
+    font-family: arial;
+    width: 500px;
+    margin: auto;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+label{
+	color:#50626C;
+	text-transform: uppercase;
+}
+button {
+    background-color: #16A085;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+
+.container {
+    padding: 16px;
+}
+
+span.email {
+    float: right;
+    padding-top: 16px;
+
+}
+span{
+	color:#50626C;
+}
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.email {
+       display: block;
+       float: none;
+    }
+}
